@@ -1,1 +1,1 @@
-# cocoaclone-test
+kokoatalk-clone
