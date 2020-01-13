@@ -1,0 +1,40 @@
+body,
+html {
+  padding: 0;
+  margin: 0;
+  height: 1500px;
+}
+.box {
+  height: 10%;
+  width: 100%;
+  background-color: lightcoral;
+  position: fixed;
+}
+
+.text {
+  height: 1500px;
+  width: 50%;
+  padding: 110px 42% 50% 70px;
+  background-color: darkturquoise;
+  position: static;
+  color: white;
+}
+.box-yellow {
+  height: 1500px;
+  width: 30%;
+  background-color: yellow;
+  border: 15px solid gray;
+  margin: 0;
+  position: absolute;
+  right: 0;
+  top: 10%;
+}
+.box-green {
+  height: 100px;
+  width: 200px;
+  background-color: green;
+  margin: 0;
+  position: absolute;
+  right: 200px;
+  top: 10px;
+}

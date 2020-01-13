@@ -1,0 +1,42 @@
+html,
+body {
+  height: 100%;
+  background-color: lightgray;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.inthebox {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 50px/50px;
+  height: 100px;
+  width: 250px;
+  margin: 4%;
+  transition: all 0.5s ease-in-out;
+  background-color: lightslategrey;
+}
+.inthebox:hover {
+  box-shadow: 5px 5px 5px sienna;
+  background-color: maroon;
+}
+
+span {
+  color: white;
+  font-size: 50px;
+  margin: 0px;
+}
+.Box {
+  width: 200px;
+  height: 200px;
+  background-color: lightsalmon;
+  transition: all 0.5s ease-in-out;
+}
+.Box:hover {
+  border: 3px solid greenyellow;
+  transform: rotate(0.5turn);
+}

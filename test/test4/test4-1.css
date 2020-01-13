@@ -1,0 +1,74 @@
+html,
+body {
+  height: 100%;
+
+  background-color: mediumaquamarine;
+}
+.Box {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  background-color: mintcream;
+  height: 100px;
+  width: 20px;
+  margin: 5px;
+}
+.box:nth-child(1) {
+  animation: 1s wave infinite ease-in-out;
+}
+@keyframes wave {
+  20% {
+    padding: 50px 0px;
+  }
+  60% {
+    padding: 0;
+  }
+}
+.box:nth-child(2) {
+  animation: 1s wave2 infinite ease-in-out;
+}
+@keyframes wave2 {
+  30% {
+    padding: 50px 0px;
+  }
+  70% {
+    padding: 0;
+  }
+}
+.box:nth-child(3) {
+  animation: 1s wave3 infinite ease-in-out;
+}
+@keyframes wave3 {
+  40% {
+    padding: 50px 0px;
+  }
+  80% {
+    padding: 0;
+  }
+}
+.box:nth-child(4) {
+  animation: 1s wave4 infinite ease-in-out;
+}
+@keyframes wave4 {
+  50% {
+    padding: 50px 0px;
+  }
+  90% {
+    padding: 0;
+  }
+}
+.box:nth-child(5) {
+  animation: 1s wave5 infinite ease-in-out;
+}
+@keyframes wave5 {
+  60% {
+    padding: 50px 0px;
+  }
+  100% {
+    padding: 0;
+  }
+}

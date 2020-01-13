@@ -1,0 +1,29 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  background-color: skyblue;
+}
+.box {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.redbox {
+  height: 200px;
+  width: 200px;
+  margin: 20px;
+  background-color: tomato;
+}
+.gray {
+  height: 50px;
+  width: 50px;
+  background-color: lightgray;
+  margin: 12px 75px;
+}
+#gray2:hover {
+  background-color: Orange;
+}

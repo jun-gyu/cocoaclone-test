@@ -1,0 +1,30 @@
+html,
+body {
+  height: 100%;
+
+  background-color: indigo;
+}
+.box {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: 1.4s ThreeDotRotate infinite ease-in-out;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  margin: 15px;
+  border-radius: 50%;
+  background: violet;
+}
+
+@keyframes ThreeDotRotate {
+  20%,
+  100% {
+    transform: rotate(0.5turn);
+  }
+}
