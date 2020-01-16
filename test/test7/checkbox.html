@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <title>Font Awesome</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    />
+    <style>
+      div {
+        margin: 30px;
+        font-size: 32px;
+      }
+      label.bb:before {
+        content: "\f0c8";
+        font-family: "Font Awesome 5 Free";
+        margin-right: 10px;
+        color: #cccccc;
+        font-size: 24px;
+      }
+      input#aa:checked + label.bb:before {
+        content: "\f14a";
+        color: #000000;
+      }
+      input#aa {
+        display: none;
+      }
+      label.ee:before {
+        content: "\f204";
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        margin-right: 10px;
+        color: #cccccc;
+        position: relative;
+        top: 3px;
+      }
+      input#dd:checked + label.ee:before {
+        content: "\f205";
+        color: #448aff;
+      }
+      input#dd {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <input type="checkbox" id="aa" />
+      <label for="aa" class="bb"></label>
+      <label for="aa" class="cc">Lorem Ipsum Dolor</label>
+    </div>
+    <div>
+      <input type="checkbox" id="dd" />
+      <label for="dd" class="ee"></label>
+      <label for="dd" class="ff">Lorem Ipsum Dolor</label>
+    </div>
+  </body>
+</html>
